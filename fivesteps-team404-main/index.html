@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4f45468a0e.js" crossorigin="anonymous"></script>
+  <title>Gegevens Formulier</title>
+</head>
+<body>
+  
+  <h3>Gegevenss invoer</h3>
+
+  <div>
+    <form>
+      <label for="Voornaam">Voornaam</label>
+      <input type="text" id="Voornaam" name="Voornaam" placeholder="Uw voornaam..">
+  
+      <label for="Achternaam">Achternaam</label>
+      <input type="text" id="Achternaam" name="Achternaam" placeholder="Uw achternaam..">
+  
+      <label for="Geslacht">Geslacht</label>
+      <select id="Geslacht" name="Geslacht">
+        <option value="Man">Man</option>
+        <option value="Vrouw">Vrouw</option>
+      </select>
+    
+      <button type="submit" id="submit" >Klik hier</button>
+    </form>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="../src/js/apps.js"></script>
+</body>
+</html>
